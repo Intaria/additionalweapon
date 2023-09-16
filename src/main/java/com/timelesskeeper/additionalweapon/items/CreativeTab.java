@@ -18,7 +18,7 @@ public class CreativeTab {
     {
         public @NotNull ItemStack makeIcon()
         {
-            return new ItemStack(ModItems.COPPER.CHESTPLATES.get());
+            return new ItemStack(ModItems.GOLD.GREATSWORDS.get());
         }
     };
 }

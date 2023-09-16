@@ -14,13 +14,12 @@ public class CommonConfig {
     static {
         BUILDER.comment("Modify the value of the weapons and tools using the custom material.").push("material_setting");
 
-        MATERIALS.put("tin", new MaterialConfig(BUILDER, "tin"));
-        MATERIALS.put("zinc", new MaterialConfig(BUILDER, "zinc"));
-        MATERIALS.put("copper", new MaterialConfig(BUILDER, "copper"));
-        MATERIALS.put("brass", new MaterialConfig(BUILDER, "brass"));
-        MATERIALS.put("bronze", new MaterialConfig(BUILDER, "bronze"));
-        MATERIALS.put("rosegold", new MaterialConfig(BUILDER, "rosegold"));
-        MATERIALS.put("steel", new MaterialConfig(BUILDER, "steel"));
+        //MATERIALS.put("tin", new MaterialConfig(BUILDER, "tin"));
+        //MATERIALS.put("zinc", new MaterialConfig(BUILDER, "zinc"));
+        //MATERIALS.put("brass", new MaterialConfig(BUILDER, "brass"));
+        //MATERIALS.put("bronze", new MaterialConfig(BUILDER, "bronze"));
+        //MATERIALS.put("rosegold", new MaterialConfig(BUILDER, "rosegold"));
+        //MATERIALS.put("steel", new MaterialConfig(BUILDER, "steel"));
 
         BUILDER.pop();
         BUILDER.comment("Modify the value of the new added weapon.").push("weapon_setting");

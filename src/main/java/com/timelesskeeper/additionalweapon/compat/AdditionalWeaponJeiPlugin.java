@@ -27,20 +27,18 @@ public class AdditionalWeaponJeiPlugin implements IModPlugin {
     public void registerRecipes(IRecipeRegistration registration) {
         Collection<ItemStack> toRemove = new ArrayList<>();
 
-        registerWeaponFactory(toRemove, ModItems.WOODEN);
         registerWeaponFactory(toRemove, ModItems.STONE);
         registerWeaponFactory(toRemove, ModItems.IRON);
         registerWeaponFactory(toRemove, ModItems.GOLD);
         registerWeaponFactory(toRemove, ModItems.DIAMOND);
         registerWeaponFactory(toRemove, ModItems.NETHERITE);
 
-        registerWeaponNoddedFactory(toRemove, ModItems.TIN);
-        registerWeaponNoddedFactory(toRemove, ModItems.ZINC);
-        registerWeaponNoddedFactory(toRemove, ModItems.COPPER);
-        registerWeaponNoddedFactory(toRemove, ModItems.BRASS);
-        registerWeaponNoddedFactory(toRemove, ModItems.BRONZE);
-        registerWeaponNoddedFactory(toRemove, ModItems.ROSEGOLD);
-        registerWeaponNoddedFactory(toRemove, ModItems.STEEL);
+        //registerWeaponNoddedFactory(toRemove, ModItems.TIN);
+        //registerWeaponNoddedFactory(toRemove, ModItems.ZINC);
+        //registerWeaponNoddedFactory(toRemove, ModItems.BRASS);
+        //registerWeaponNoddedFactory(toRemove, ModItems.BRONZE);
+        //registerWeaponNoddedFactory(toRemove, ModItems.ROSEGOLD);
+        //registerWeaponNoddedFactory(toRemove, ModItems.STEEL);
 
         registration.getIngredientManager().removeIngredientsAtRuntime(VanillaTypes.ITEM_STACK, toRemove);
     }

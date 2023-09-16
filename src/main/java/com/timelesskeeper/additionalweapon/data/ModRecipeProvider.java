@@ -37,20 +37,18 @@ public class ModRecipeProvider extends BaseRecipeProvider {
                 .unlockedBy("has_item", has(Items.STICK))
                 .save(pFinishedRecipeConsumer);
 
-        registerWeaponFactory(pFinishedRecipeConsumer, ModItems.WOODEN, ItemTags.PLANKS);
         registerWeaponFactory(pFinishedRecipeConsumer, ModItems.STONE, ItemTags.STONE_TOOL_MATERIALS);
         registerWeaponFactory(pFinishedRecipeConsumer, ModItems.IRON, Tags.Items.INGOTS_IRON);
         registerWeaponFactory(pFinishedRecipeConsumer, ModItems.GOLD, Tags.Items.INGOTS_GOLD);
         registerWeaponFactory(pFinishedRecipeConsumer, ModItems.DIAMOND, Tags.Items.GEMS_DIAMOND);
         registerSmithingFactory(pFinishedRecipeConsumer, ModItems.DIAMOND, ModItems.NETHERITE, Tags.Items.INGOTS_NETHERITE);
 
-        registerWeaponNoddedFactory(pFinishedRecipeConsumer, ModItems.TIN, ModTags.INGOTS_TIN);
-        registerWeaponNoddedFactory(pFinishedRecipeConsumer, ModItems.ZINC, ModTags.INGOTS_ZINC);
-        registerWeaponNoddedFactory(pFinishedRecipeConsumer, ModItems.COPPER, Tags.Items.INGOTS_COPPER);
-        registerWeaponNoddedFactory(pFinishedRecipeConsumer, ModItems.BRASS, ModTags.INGOTS_BRASS);
-        registerWeaponNoddedFactory(pFinishedRecipeConsumer, ModItems.BRONZE, ModTags.INGOTS_BRONZE);
-        registerWeaponNoddedFactory(pFinishedRecipeConsumer, ModItems.ROSEGOLD, ModTags.INGOTS_ROSEGOLD);
-        registerWeaponNoddedFactory(pFinishedRecipeConsumer, ModItems.STEEL, ModTags.INGOTS_STEEL);
+        //registerWeaponNoddedFactory(pFinishedRecipeConsumer, ModItems.TIN, ModTags.INGOTS_TIN);
+        //registerWeaponNoddedFactory(pFinishedRecipeConsumer, ModItems.ZINC, ModTags.INGOTS_ZINC);
+        //registerWeaponNoddedFactory(pFinishedRecipeConsumer, ModItems.BRASS, ModTags.INGOTS_BRASS);
+        //registerWeaponNoddedFactory(pFinishedRecipeConsumer, ModItems.BRONZE, ModTags.INGOTS_BRONZE);
+        //registerWeaponNoddedFactory(pFinishedRecipeConsumer, ModItems.ROSEGOLD, ModTags.INGOTS_ROSEGOLD);
+        //registerWeaponNoddedFactory(pFinishedRecipeConsumer, ModItems.STEEL, ModTags.INGOTS_STEEL);
     }
 
     private void registerWeaponFactory(Consumer<FinishedRecipe> pFinishedRecipeConsumer, WeaponFactory weapons,

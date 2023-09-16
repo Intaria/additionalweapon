@@ -10,7 +10,6 @@ import net.minecraftforge.common.Tags;
 import java.util.function.Supplier;
 
 public enum ModToolTiers implements IConfigTier {
-    WOOD("wooden", Tiers.WOOD),
     STONE("stone", Tiers.STONE),
     IRON("iron", Tiers.IRON),
     GOLD("golden", Tiers.GOLD),
@@ -21,8 +20,6 @@ public enum ModToolTiers implements IConfigTier {
             () -> Ingredient.of(ModTags.INGOTS_TIN)),
     ZINC("zinc", 1, 100, 10F, 0.5F, 19,
             () -> Ingredient.of(ModTags.INGOTS_ZINC)),
-    COPPER("copper", 2, 150, 7.0F, 1.5F, 18,
-            () -> Ingredient.of(Tags.Items.INGOTS_COPPER)),
     BRASS("brass", 2, 150, 8.5F, 1.5F, 18,
             () -> Ingredient.of(ModTags.INGOTS_BRASS)),
     BRONZE("bronze", 2, 200, 6.5F, 2F, 17,

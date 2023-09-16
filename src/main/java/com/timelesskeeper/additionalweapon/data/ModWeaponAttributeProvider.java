@@ -16,20 +16,18 @@ public class ModWeaponAttributeProvider extends BaseWeaponAttributeProvider {
 
     @Override
     protected void buildBetterCombatData(Consumer<FinishedWeaponAttribute> pWeaponAttributeConsumer) {
-        registerWeaponFactory(pWeaponAttributeConsumer, ModItems.WOODEN);
         registerWeaponFactory(pWeaponAttributeConsumer, ModItems.STONE);
         registerWeaponFactory(pWeaponAttributeConsumer, ModItems.IRON);
         registerWeaponFactory(pWeaponAttributeConsumer, ModItems.GOLD);
         registerWeaponFactory(pWeaponAttributeConsumer, ModItems.DIAMOND);
         registerWeaponFactory(pWeaponAttributeConsumer, ModItems.NETHERITE);
 
-        registerWeaponNoddedFactory(pWeaponAttributeConsumer, ModItems.TIN);
-        registerWeaponNoddedFactory(pWeaponAttributeConsumer, ModItems.ZINC);
-        registerWeaponNoddedFactory(pWeaponAttributeConsumer, ModItems.COPPER);
-        registerWeaponNoddedFactory(pWeaponAttributeConsumer, ModItems.BRASS);
-        registerWeaponNoddedFactory(pWeaponAttributeConsumer, ModItems.BRONZE);
-        registerWeaponNoddedFactory(pWeaponAttributeConsumer, ModItems.ROSEGOLD);
-        registerWeaponNoddedFactory(pWeaponAttributeConsumer, ModItems.STEEL);
+        //registerWeaponNoddedFactory(pWeaponAttributeConsumer, ModItems.TIN);
+        //registerWeaponNoddedFactory(pWeaponAttributeConsumer, ModItems.ZINC);
+        //registerWeaponNoddedFactory(pWeaponAttributeConsumer, ModItems.BRASS);
+        //registerWeaponNoddedFactory(pWeaponAttributeConsumer, ModItems.BRONZE);
+        //registerWeaponNoddedFactory(pWeaponAttributeConsumer, ModItems.ROSEGOLD);
+        //registerWeaponNoddedFactory(pWeaponAttributeConsumer, ModItems.STEEL);
     }
 
     private void registerWeaponFactory(Consumer<FinishedWeaponAttribute> pWeaponAttributeConsumer, WeaponFactory weapons) {

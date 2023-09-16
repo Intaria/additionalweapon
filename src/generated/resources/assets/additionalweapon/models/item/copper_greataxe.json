@@ -1,6 +1,0 @@
-{
-  "parent": "additionalweapon:item/iron_greataxe",
-  "textures": {
-    "layer0": "additionalweapon:item/copper_greataxe"
-  }
-}

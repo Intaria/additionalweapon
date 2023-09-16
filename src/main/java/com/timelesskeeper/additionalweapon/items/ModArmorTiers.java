@@ -16,8 +16,6 @@ public enum ModArmorTiers implements IConfigArmorMaterial {
             0.0F, 0.0F, () -> Ingredient.of(ModTags.INGOTS_TIN)),
     ZINC("zinc", 9, new int[]{2, 3, 5, 2}, 20, SoundEvents.ARMOR_EQUIP_IRON,
             0.0F, 0.0F, () -> Ingredient.of(ModTags.INGOTS_ZINC)),
-    COPPER("copper", 11, new int[]{2, 4, 6, 2}, 18, SoundEvents.ARMOR_EQUIP_IRON,
-            0.0F, 0.0F, () -> Ingredient.of(Tags.Items.INGOTS_COPPER)),
     BRASS("brass", 11, new int[]{2, 4, 6, 2}, 18, SoundEvents.ARMOR_EQUIP_IRON,
             0.0F, 0.0F, () -> Ingredient.of(ModTags.INGOTS_BRASS)),
     BRONZE("bronze", 13, new int[]{2, 5, 6, 2}, 16, SoundEvents.ARMOR_EQUIP_IRON,

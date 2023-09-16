@@ -28,20 +28,18 @@ public class ModLangProvider extends LangDataProvider {
     protected void buildLangData(Consumer<FinishedLang> pFinishedLangConsumer) {
         Map<String, String> descriptions = new HashMap<>();
 
-        registerWeaponFactory(descriptions, ModItems.WOODEN, "Wooden");
         registerWeaponFactory(descriptions, ModItems.STONE, "Stone");
         registerWeaponFactory(descriptions, ModItems.IRON, "Iron");
         registerWeaponFactory(descriptions, ModItems.GOLD, "Golden");
         registerWeaponFactory(descriptions, ModItems.DIAMOND, "Diamond");
         registerWeaponFactory(descriptions, ModItems.NETHERITE, "Netherite");
 
-        registerWeaponNoddedFactory(descriptions, ModItems.TIN, "Tin");
-        registerWeaponNoddedFactory(descriptions, ModItems.ZINC, "Zinc");
-        registerWeaponNoddedFactory(descriptions, ModItems.COPPER, "Copper");
-        registerWeaponNoddedFactory(descriptions, ModItems.BRASS, "Brass");
-        registerWeaponNoddedFactory(descriptions, ModItems.BRONZE, "Bronze");
-        registerWeaponNoddedFactory(descriptions, ModItems.ROSEGOLD, "Rose Gold");
-        registerWeaponNoddedFactory(descriptions, ModItems.STEEL, "Steel");
+        //registerWeaponNoddedFactory(descriptions, ModItems.TIN, "Tin");
+        //registerWeaponNoddedFactory(descriptions, ModItems.ZINC, "Zinc");
+        //registerWeaponNoddedFactory(descriptions, ModItems.BRASS, "Brass");
+        //registerWeaponNoddedFactory(descriptions, ModItems.BRONZE, "Bronze");
+        //registerWeaponNoddedFactory(descriptions, ModItems.ROSEGOLD, "Rose Gold");
+        //registerWeaponNoddedFactory(descriptions, ModItems.STEEL, "Steel");
 
         new LangBuilder()
                 .description("itemGroup.additionalweapons", "Additional Weapons")

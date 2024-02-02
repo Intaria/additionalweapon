@@ -14,20 +14,7 @@ public enum ModToolTiers implements IConfigTier {
     IRON("iron", Tiers.IRON),
     GOLD("golden", Tiers.GOLD),
     DIAMOND("diamond", Tiers.DIAMOND),
-    NETHERITE("netherite", Tiers.NETHERITE),
-
-    TIN("tin", 1, 50, 11.5F, 0.0F, 20,
-            () -> Ingredient.of(ModTags.INGOTS_TIN)),
-    ZINC("zinc", 1, 100, 10F, 0.5F, 19,
-            () -> Ingredient.of(ModTags.INGOTS_ZINC)),
-    BRASS("brass", 2, 150, 8.5F, 1.5F, 18,
-            () -> Ingredient.of(ModTags.INGOTS_BRASS)),
-    BRONZE("bronze", 2, 200, 6.5F, 2F, 17,
-            () -> Ingredient.of(ModTags.INGOTS_BRONZE)),
-    ROSEGOLD("rosegold", 2, 150, 11F, 1.5F, 20,
-            () -> Ingredient.of(ModTags.INGOTS_ROSEGOLD)),
-    STEEL("steel", 3, 600, 7.0F, 2.5F, 14,
-            () -> Ingredient.of(ModTags.INGOTS_STEEL));
+    NETHERITE("netherite", Tiers.NETHERITE);
 
     private final String name;
     private final int level;

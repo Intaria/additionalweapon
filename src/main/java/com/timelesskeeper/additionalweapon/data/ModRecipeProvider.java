@@ -5,7 +5,6 @@ import com.timelesskeeper.additionalweapon.api.data.BaseRecipeProvider;
 import com.timelesskeeper.additionalweapon.api.items.WeaponFactory;
 import com.timelesskeeper.additionalweapon.api.items.WeaponModdedFactory;
 import com.timelesskeeper.additionalweapon.items.ModItems;
-import com.timelesskeeper.additionalweapon.items.ModTags;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.*;
 import net.minecraft.tags.ItemTags;
@@ -42,13 +41,6 @@ public class ModRecipeProvider extends BaseRecipeProvider {
         registerWeaponFactory(pFinishedRecipeConsumer, ModItems.GOLD, Tags.Items.INGOTS_GOLD);
         registerWeaponFactory(pFinishedRecipeConsumer, ModItems.DIAMOND, Tags.Items.GEMS_DIAMOND);
         registerSmithingFactory(pFinishedRecipeConsumer, ModItems.DIAMOND, ModItems.NETHERITE, Tags.Items.INGOTS_NETHERITE);
-
-        //registerWeaponNoddedFactory(pFinishedRecipeConsumer, ModItems.TIN, ModTags.INGOTS_TIN);
-        //registerWeaponNoddedFactory(pFinishedRecipeConsumer, ModItems.ZINC, ModTags.INGOTS_ZINC);
-        //registerWeaponNoddedFactory(pFinishedRecipeConsumer, ModItems.BRASS, ModTags.INGOTS_BRASS);
-        //registerWeaponNoddedFactory(pFinishedRecipeConsumer, ModItems.BRONZE, ModTags.INGOTS_BRONZE);
-        //registerWeaponNoddedFactory(pFinishedRecipeConsumer, ModItems.ROSEGOLD, ModTags.INGOTS_ROSEGOLD);
-        //registerWeaponNoddedFactory(pFinishedRecipeConsumer, ModItems.STEEL, ModTags.INGOTS_STEEL);
     }
 
     private void registerWeaponFactory(Consumer<FinishedRecipe> pFinishedRecipeConsumer, WeaponFactory weapons,

@@ -1,6 +1,0 @@
-{
-  "parent": "additionalweapon:item/iron_katana",
-  "textures": {
-    "layer0": "additionalweapon:item/tin_katana"
-  }
-}

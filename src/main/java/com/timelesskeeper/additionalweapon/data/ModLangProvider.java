@@ -34,13 +34,6 @@ public class ModLangProvider extends LangDataProvider {
         registerWeaponFactory(descriptions, ModItems.DIAMOND, "Diamond");
         registerWeaponFactory(descriptions, ModItems.NETHERITE, "Netherite");
 
-        //registerWeaponNoddedFactory(descriptions, ModItems.TIN, "Tin");
-        //registerWeaponNoddedFactory(descriptions, ModItems.ZINC, "Zinc");
-        //registerWeaponNoddedFactory(descriptions, ModItems.BRASS, "Brass");
-        //registerWeaponNoddedFactory(descriptions, ModItems.BRONZE, "Bronze");
-        //registerWeaponNoddedFactory(descriptions, ModItems.ROSEGOLD, "Rose Gold");
-        //registerWeaponNoddedFactory(descriptions, ModItems.STEEL, "Steel");
-
         new LangBuilder()
                 .description("itemGroup.additionalweapons", "Additional Weapons")
                 .description("itemGroup.additionalweapons_vanilla", "Additional Weapons - Vanilla")

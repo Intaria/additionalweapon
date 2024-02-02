@@ -1,6 +1,0 @@
-{
-  "parent": "additionalweapon:item/iron_halberd",
-  "textures": {
-    "layer0": "additionalweapon:item/tin_halberd"
-  }
-}

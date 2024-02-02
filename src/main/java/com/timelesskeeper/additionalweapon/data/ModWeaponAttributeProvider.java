@@ -21,13 +21,6 @@ public class ModWeaponAttributeProvider extends BaseWeaponAttributeProvider {
         registerWeaponFactory(pWeaponAttributeConsumer, ModItems.GOLD);
         registerWeaponFactory(pWeaponAttributeConsumer, ModItems.DIAMOND);
         registerWeaponFactory(pWeaponAttributeConsumer, ModItems.NETHERITE);
-
-        //registerWeaponNoddedFactory(pWeaponAttributeConsumer, ModItems.TIN);
-        //registerWeaponNoddedFactory(pWeaponAttributeConsumer, ModItems.ZINC);
-        //registerWeaponNoddedFactory(pWeaponAttributeConsumer, ModItems.BRASS);
-        //registerWeaponNoddedFactory(pWeaponAttributeConsumer, ModItems.BRONZE);
-        //registerWeaponNoddedFactory(pWeaponAttributeConsumer, ModItems.ROSEGOLD);
-        //registerWeaponNoddedFactory(pWeaponAttributeConsumer, ModItems.STEEL);
     }
 
     private void registerWeaponFactory(Consumer<FinishedWeaponAttribute> pWeaponAttributeConsumer, WeaponFactory weapons) {

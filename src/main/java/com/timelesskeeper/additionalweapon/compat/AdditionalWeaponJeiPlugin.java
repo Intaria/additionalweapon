@@ -33,13 +33,6 @@ public class AdditionalWeaponJeiPlugin implements IModPlugin {
         registerWeaponFactory(toRemove, ModItems.DIAMOND);
         registerWeaponFactory(toRemove, ModItems.NETHERITE);
 
-        //registerWeaponNoddedFactory(toRemove, ModItems.TIN);
-        //registerWeaponNoddedFactory(toRemove, ModItems.ZINC);
-        //registerWeaponNoddedFactory(toRemove, ModItems.BRASS);
-        //registerWeaponNoddedFactory(toRemove, ModItems.BRONZE);
-        //registerWeaponNoddedFactory(toRemove, ModItems.ROSEGOLD);
-        //registerWeaponNoddedFactory(toRemove, ModItems.STEEL);
-
         registration.getIngredientManager().removeIngredientsAtRuntime(VanillaTypes.ITEM_STACK, toRemove);
     }
 

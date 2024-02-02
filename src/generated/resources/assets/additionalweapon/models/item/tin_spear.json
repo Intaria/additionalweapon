@@ -1,6 +1,0 @@
-{
-  "parent": "additionalweapon:item/iron_spear",
-  "textures": {
-    "layer0": "additionalweapon:item/tin_spear"
-  }
-}

@@ -25,13 +25,6 @@ public class ModItemModelProvider extends BaseItemModelProvider {
         registerWeaponFactory(ModItems.GOLD);
         registerWeaponFactory(ModItems.DIAMOND);
         registerWeaponFactory(ModItems.NETHERITE);
-
-        //registerWeaponNoddedFactory(ModItems.TIN);
-        //registerWeaponNoddedFactory(ModItems.ZINC);
-        //registerWeaponNoddedFactory(ModItems.BRASS);
-        //registerWeaponNoddedFactory(ModItems.BRONZE);
-        //registerWeaponNoddedFactory(ModItems.ROSEGOLD);
-        //registerWeaponNoddedFactory(ModItems.STEEL);
     }
 
     private void registerWeaponFactory(WeaponFactory weapons) {

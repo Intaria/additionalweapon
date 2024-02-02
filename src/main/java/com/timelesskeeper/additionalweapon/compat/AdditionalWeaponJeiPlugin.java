@@ -33,7 +33,7 @@ public class AdditionalWeaponJeiPlugin implements IModPlugin {
         registerWeaponFactory(toRemove, ModItems.DIAMOND);
         registerWeaponFactory(toRemove, ModItems.NETHERITE);
 
-        registration.getIngredientManager().removeIngredientsAtRuntime(VanillaTypes.ITEM_STACK, toRemove);
+        //registration.getIngredientManager().removeIngredientsAtRuntime(VanillaTypes.ITEM_STACK, toRemove);
     }
 
     private void registerWeaponFactory(Collection<ItemStack> toRemove, WeaponFactory weapons) {
@@ -45,21 +45,6 @@ public class AdditionalWeaponJeiPlugin implements IModPlugin {
         registerWeapon(toRemove, weapons.HALBERDS.get());
         registerWeapon(toRemove, weapons.GLAIVES.get());
         registerWeapon(toRemove, weapons.BATTLESTAFFS.get());
-    }
-
-    private void  registerWeaponNoddedFactory(Collection<ItemStack> toRemove, WeaponModdedFactory weapons) {
-        registerWeaponFactory(toRemove, weapons);
-
-        registerWeapon(toRemove, weapons.HELMETS.get());
-        registerWeapon(toRemove, weapons.CHESTPLATES.get());
-        registerWeapon(toRemove, weapons.LEGGINGS.get());
-        registerWeapon(toRemove, weapons.BOOTS.get());
-
-        registerWeapon(toRemove, weapons.SWORDS.get());
-        registerWeapon(toRemove, weapons.SHOVELS.get());
-        registerWeapon(toRemove, weapons.PICKAXES.get());
-        registerWeapon(toRemove, weapons.AXES.get());
-        registerWeapon(toRemove, weapons.HOES.get());
     }
 
     private void registerWeapon(Collection<ItemStack> toRemove, Item weapon) {

@@ -43,7 +43,6 @@ public class ConfigEnableCondition implements ICondition {
 
         @Override
         public ConfigEnableCondition read(JsonObject json) {
-            AdditionalWeapon.LOGGER.info(new ResourceLocation("config_enable").toString());
             return new ConfigEnableCondition(GsonHelper.getAsItem(json, "config_enable"));
         }
 
